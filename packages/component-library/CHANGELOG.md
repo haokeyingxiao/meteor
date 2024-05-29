@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.8.3
+
+### Patch Changes
+
+- update
+- d60aad5: # Fix number field events
+  - Deprecated `change` event for `mt-number-field`
+  - Added `update:modelValue` event to `mt-number-field`
+
 ## 3.8.0
 
 ### Minor Changes

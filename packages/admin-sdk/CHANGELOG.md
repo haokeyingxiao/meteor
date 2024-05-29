@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.4.2
+
+### Patch Changes
+
+- update
+- Updated dependencies
+- Updated dependencies [d60aad5]
+  - @haokeyingxiao/meteor-component-library@3.8.3
+
 ## 5.4.0
 
 ### Minor Changes
