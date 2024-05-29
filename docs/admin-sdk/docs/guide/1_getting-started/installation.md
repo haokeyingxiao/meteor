@@ -60,19 +60,19 @@ The CDN method is easy to use and fast to implement. It is best used for quick p
 ### Using NPM (require bundling):
 Install it to your `package.json`
 ```
-npm i --save @shopware-ag/meteor-admin-sdk
+npm i --save @haokeyingxiao/meteor-admin-sdk
 ```
 
 and import it into your app or plugin:
 ```js
 // import everything as one big object
-import * as sw from '@shopware-ag/meteor-admin-sdk';
+import * as sw from '@haokeyingxiao/meteor-admin-sdk';
 
 // or import only needed functionality scope
-import { notification }  from '@shopware-ag/meteor-admin-sdk';
+import { notification }  from '@haokeyingxiao/meteor-admin-sdk';
 
 // or the direct method (here with an alias)
-import { dispatch as dispatchNotification } from '@shopware-ag/meteor-admin-sdk/es/notification'
+import { dispatch as dispatchNotification } from '@haokeyingxiao/meteor-admin-sdk/es/notification'
 
 ```
 
@@ -81,10 +81,10 @@ Import the source from the CDN
 
 ```js
 // use the latest version available
-<script src="https://unpkg.com/@shopware-ag/meteor-admin-sdk/cdn"></script>
+<script src="https://unpkg.com/@haokeyingxiao/meteor-admin-sdk/cdn"></script>
 
 // use a fix version (example here: 1.2.3)
-<script src="https://unpkg.com/@shopware-ag/meteor-admin-sdk@1.2.3/cdn"></script>
+<script src="https://unpkg.com/@haokeyingxiao/meteor-admin-sdk@1.2.3/cdn"></script>
 ```
 
 and access it with the global variable `sw`.
@@ -107,17 +107,17 @@ add the types for the entities by extending the global namespace.
 ### Using auto-generated types from Shopware
 This is the easiest solution. Just install the correct type definition for the matching shopware version:
 
-`npm install @shopware-ag/entity-schema-types@5.0.0`
+`npm install @haokeyingxiao/entity-schema-types@5.0.0`
 
 The version number should match the Shopware version number without the `6.` in the beginning. Examples:  
 
-`Shopware 6.5.0.0` → `@shopware-ag/entity-schema-types@5.0.0`
-`Shopware 6.5.1.2` → `@shopware-ag/entity-schema-types@5.1.2`
-`Shopware 6.6.3.1` → `@shopware-ag/entity-schema-types@6.3.1`
+`Shopware 6.5.0.0` → `@haokeyingxiao/entity-schema-types@5.0.0`
+`Shopware 6.5.1.2` → `@haokeyingxiao/entity-schema-types@5.1.2`
+`Shopware 6.6.3.1` → `@haokeyingxiao/entity-schema-types@6.3.1`
 
 ```ts
 // global.d.ts
-import '@shopware-ag/entity-schema-types';
+import '@haokeyingxiao/entity-schema-types';
 ```
 
 ### Using "any" fallback

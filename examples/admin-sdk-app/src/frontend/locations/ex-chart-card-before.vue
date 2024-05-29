@@ -22,8 +22,8 @@
 </template>
 
 <script setup lang="ts">
-import { window, context } from "@shopware-ag/meteor-admin-sdk";
-import { SwButton } from '@shopware-ag/meteor-component-library';
+import { window, context } from "@haokeyingxiao/meteor-admin-sdk";
+import { SwButton } from '@haokeyingxiao/meteor-component-library';
 
 async function goToExampleModule() {
   const moduleInformation = await context.getModuleInformation();
