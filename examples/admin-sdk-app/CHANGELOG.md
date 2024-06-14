@@ -11,8 +11,8 @@
 - Updated dependencies [cdb9eda]
 - Updated dependencies [8182c77]
 - Updated dependencies [3eb91a0]
-  - @shopware-ag/meteor-component-library@3.8.2
-  - @shopware-ag/meteor-admin-sdk@5.4.2
+  - @haokeyingxiao/meteor-component-library@3.8.2
+  - @haokeyingxiao/meteor-admin-sdk@5.4.2
 
 ## 1.0.15
 
@@ -21,15 +21,15 @@
 - Updated dependencies [def10ee]
 - Updated dependencies [81f8d4c]
 - Updated dependencies [d60aad5]
-  - @shopware-ag/meteor-component-library@3.8.1
-  - @shopware-ag/meteor-admin-sdk@5.4.1
+  - @haokeyingxiao/meteor-component-library@3.8.1
+  - @haokeyingxiao/meteor-admin-sdk@5.4.1
 
 ## 1.0.14
 
 ### Patch Changes
 
 - Updated dependencies [6d2359e]
-  - @shopware-ag/meteor-admin-sdk@5.4.0
+  - @haokeyingxiao/meteor-admin-sdk@5.4.0
 
 ## 1.0.13
 
@@ -47,15 +47,15 @@
 - Updated dependencies [19bba6e]
 - Updated dependencies [16be216]
 - Updated dependencies [2b13b0b]
-  - @shopware-ag/meteor-component-library@3.8.0
-  - @shopware-ag/meteor-admin-sdk@5.3.1
+  - @haokeyingxiao/meteor-component-library@3.8.0
+  - @haokeyingxiao/meteor-admin-sdk@5.3.1
 
 ## 1.0.12
 
 ### Patch Changes
 
 - Updated dependencies [7a54401]
-  - @shopware-ag/meteor-admin-sdk@5.3.0
+  - @haokeyingxiao/meteor-admin-sdk@5.3.0
 
 ## 1.0.11
 
@@ -69,8 +69,8 @@
 - Updated dependencies [b9b4005]
 - Updated dependencies [fbe8152]
 - Updated dependencies [d9f7c3e]
-  - @shopware-ag/meteor-component-library@3.7.0
-  - @shopware-ag/meteor-admin-sdk@5.2.1
+  - @haokeyingxiao/meteor-component-library@3.7.0
+  - @haokeyingxiao/meteor-admin-sdk@5.2.1
 
 ## 1.0.10
 
@@ -81,15 +81,15 @@
 - Updated dependencies [321a830]
 - Updated dependencies [3b22c7a]
 - Updated dependencies [b54d88c]
-  - @shopware-ag/meteor-component-library@3.6.0
-  - @shopware-ag/meteor-admin-sdk@5.2.0
+  - @haokeyingxiao/meteor-component-library@3.6.0
+  - @haokeyingxiao/meteor-admin-sdk@5.2.0
 
 ## 1.0.9
 
 ### Patch Changes
 
 - Updated dependencies [b68fa55]
-  - @shopware-ag/meteor-component-library@3.5.1
+  - @haokeyingxiao/meteor-component-library@3.5.1
 
 ## 1.0.8
 
@@ -98,8 +98,8 @@
 - Updated dependencies [d13e2fb]
 - Updated dependencies [85942a2]
 - Updated dependencies [95cdb1f]
-  - @shopware-ag/meteor-admin-sdk@5.1.1
-  - @shopware-ag/meteor-component-library@3.5.0
+  - @haokeyingxiao/meteor-admin-sdk@5.1.1
+  - @haokeyingxiao/meteor-component-library@3.5.0
 
 ## 1.0.7
 
@@ -108,8 +108,8 @@
 - Updated dependencies [7ff2788]
 - Updated dependencies [97ba4d8]
 - Updated dependencies [aa772a9]
-  - @shopware-ag/meteor-component-library@3.4.0
-  - @shopware-ag/meteor-admin-sdk@5.1.0
+  - @haokeyingxiao/meteor-component-library@3.4.0
+  - @haokeyingxiao/meteor-admin-sdk@5.1.0
 
 ## 1.0.6
 
@@ -120,22 +120,22 @@
 - Updated dependencies [e7d95c3]
 - Updated dependencies [0ba5c91]
 - Updated dependencies [856489b]
-  - @shopware-ag/meteor-component-library@3.3.0
-  - @shopware-ag/meteor-admin-sdk@5.0.2
+  - @haokeyingxiao/meteor-component-library@3.3.0
+  - @haokeyingxiao/meteor-admin-sdk@5.0.2
 
 ## 1.0.5
 
 ### Patch Changes
 
 - Updated dependencies [e0e1741]
-  - @shopware-ag/meteor-component-library@3.2.0
+  - @haokeyingxiao/meteor-component-library@3.2.0
 
 ## 1.0.4
 
 ### Patch Changes
 
 - Updated dependencies [6c6678d]
-  - @shopware-ag/meteor-component-library@3.1.0
+  - @haokeyingxiao/meteor-component-library@3.1.0
 
 ## 1.0.3
 
@@ -143,14 +143,14 @@
 
 - Updated dependencies [bff12c5]
 - Updated dependencies [8a9066a]
-  - @shopware-ag/meteor-component-library@3.0.0
+  - @haokeyingxiao/meteor-component-library@3.0.0
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [4048af6]
-  - @shopware-ag/meteor-admin-sdk@5.0.1
+  - @haokeyingxiao/meteor-admin-sdk@5.0.1
 
 ## 1.0.1
 
@@ -160,4 +160,4 @@
 - Updated dependencies [957e419]
 - Updated dependencies [6e65a4b]
 - Updated dependencies [30d0128]
-  - @shopware-ag/meteor-admin-sdk@5.0.0
+  - @haokeyingxiao/meteor-admin-sdk@5.0.0

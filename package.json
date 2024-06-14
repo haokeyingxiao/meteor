@@ -1,17 +1,16 @@
 {
   "name": "meteor",
   "version": "0.0.0",
-  "author": "shopware AG",
   "private": true,
   "description": "The monorepo that contains all Meteor related projects",
   "keywords": [],
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "@changesets/cli": "^2.27.1"
+    "@changesets/cli": "^2.27.5"
   },
   "devDependencies": {
-    "turbo": "^2.0.1"
+    "turbo": "^2.0.3"
   },
-  "packageManager": "pnpm@8.15.4"
+  "packageManager": "pnpm@9.1.3"
 }

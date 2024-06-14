@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/@shopware-ag%2Fmeteor-icon-kit.svg)](https://badge.fury.io/js/@shopware-ag%2Fmeteor-icon-kit)
+[![npm version](https://badge.fury.io/js/@haokeyingxiao%2Fmeteor-icon-kit.svg)](https://badge.fury.io/js/@haokeyingxiao%2Fmeteor-icon-kit)
 
 # meteor-icon-kit
 

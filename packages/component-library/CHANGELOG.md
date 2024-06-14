@@ -31,7 +31,7 @@
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
-  - @shopware-ag/meteor-tokens@0.2.0
+  - @haokeyingxiao/meteor-tokens@0.2.0
 
 ## 3.8.0
 
@@ -119,7 +119,7 @@
 
 - 7ff2788: Remove unnecessary left border in data table
 - Updated dependencies [8443590]
-  - @shopware-ag/meteor-tokens@0.1.0
+  - @haokeyingxiao/meteor-tokens@0.1.0
 
 ## 3.3.0
 
