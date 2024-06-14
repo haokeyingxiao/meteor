@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
+  "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", "es/**", "umd/**", ".docusaurus/**", "build/**"],
@@ -26,13 +26,21 @@
     },
     "format:check": {},
     "test:unit": {
+      "env": [
+        "FIGMA_TOKEN",
+        "ADMIN_TOKENS_FILE_KEY",
+        "PRIMITIVE_TOKENS_FILE_KEY",
+        "CI"
+      ],
       "outputs": []
     },
     "test:e2e": {
-      "outputs": []
+      "outputs": [],
+      "dependsOn": ["^build"]
     },
     "@haokeyingxiao/meteor-component-library#test:storybook": {
-      "outputs": []
+      "outputs": [],
+      "dependsOn": ["^build"]
     }
   }
 }

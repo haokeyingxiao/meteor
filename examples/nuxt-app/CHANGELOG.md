@@ -1,12 +1,26 @@
 # nuxt-app
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [4be837e]
+- Updated dependencies [b6c52b7]
+- Updated dependencies [b301a99]
+- Updated dependencies [4f85b4f]
+- Updated dependencies [cdb9eda]
+- Updated dependencies [8182c77]
+- Updated dependencies [3eb91a0]
+  - @shopware-ag/meteor-component-library@3.8.2
+
 ## 0.0.8
 
 ### Patch Changes
 
-- Updated dependencies
+- Updated dependencies [def10ee]
+- Updated dependencies [81f8d4c]
 - Updated dependencies [d60aad5]
-  - @haokeyingxiao/meteor-component-library@3.8.3
+  - @shopware-ag/meteor-component-library@3.8.1
 
 ## 0.0.7
 
@@ -24,7 +38,7 @@
 - Updated dependencies [19bba6e]
 - Updated dependencies [16be216]
 - Updated dependencies [2b13b0b]
-  - @haokeyingxiao/meteor-component-library@3.8.0
+  - @shopware-ag/meteor-component-library@3.8.0
 
 ## 0.0.6
 
@@ -38,7 +52,7 @@
 - Updated dependencies [b9b4005]
 - Updated dependencies [fbe8152]
 - Updated dependencies [d9f7c3e]
-  - @haokeyingxiao/meteor-component-library@3.7.0
+  - @shopware-ag/meteor-component-library@3.7.0
 
 ## 0.0.5
 
@@ -48,14 +62,14 @@
 - Updated dependencies [b54d88c]
 - Updated dependencies [321a830]
 - Updated dependencies [3b22c7a]
-  - @haokeyingxiao/meteor-component-library@3.6.0
+  - @shopware-ag/meteor-component-library@3.6.0
 
 ## 0.0.4
 
 ### Patch Changes
 
 - Updated dependencies [b68fa55]
-  - @haokeyingxiao/meteor-component-library@3.5.1
+  - @shopware-ag/meteor-component-library@3.5.1
 
 ## 0.0.3
 
@@ -63,7 +77,7 @@
 
 - Updated dependencies [85942a2]
 - Updated dependencies [95cdb1f]
-  - @haokeyingxiao/meteor-component-library@3.5.0
+  - @shopware-ag/meteor-component-library@3.5.0
 
 ## 0.0.2
 
@@ -71,7 +85,7 @@
 
 - Updated dependencies [7ff2788]
 - Updated dependencies [97ba4d8]
-  - @haokeyingxiao/meteor-component-library@3.4.0
+  - @shopware-ag/meteor-component-library@3.4.0
 
 ## null
 
@@ -81,21 +95,21 @@
 - Updated dependencies [f0655bf]
 - Updated dependencies [0ba5c91]
 - Updated dependencies [856489b]
-  - @haokeyingxiao/meteor-component-library@3.3.0
+  - @shopware-ag/meteor-component-library@3.3.0
 
 ## null
 
 ### Patch Changes
 
 - Updated dependencies [e0e1741]
-  - @haokeyingxiao/meteor-component-library@3.2.0
+  - @shopware-ag/meteor-component-library@3.2.0
 
 ## null
 
 ### Patch Changes
 
 - Updated dependencies [6c6678d]
-  - @haokeyingxiao/meteor-component-library@3.1.0
+  - @shopware-ag/meteor-component-library@3.1.0
 
 ## null
 
@@ -103,4 +117,4 @@
 
 - Updated dependencies [bff12c5]
 - Updated dependencies [8a9066a]
-  - @haokeyingxiao/meteor-component-library@3.0.0
+  - @shopware-ag/meteor-component-library@3.0.0

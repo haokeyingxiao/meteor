@@ -1,13 +1,37 @@
 # Changelog
 
-## 3.8.3
+## 3.8.2
 
 ### Patch Changes
 
-- update
+- 4be837e: Add tokens for loader component
+- b6c52b7: Fix positioning of the toast notifications
+- b301a99: Fix placeholder in select components
+- 4f85b4f: Style required star for base field
+- cdb9eda: Add tokens to context button
+- 8182c77: Add tokens for data table component
+- 3eb91a0: Add tokens for skeleton bar
+
+## 3.8.1
+
+### Patch Changes
+
+- def10ee: Add tokens to tooltip component
+- 81f8d4c: Fix tag deletion is not working on the Safari browser
 - d60aad5: # Fix number field events
   - Deprecated `change` event for `mt-number-field`
   - Added `update:modelValue` event to `mt-number-field`
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+- Updated dependencies [0a0ac80]
+  - @shopware-ag/meteor-tokens@0.2.0
 
 ## 3.8.0
 
@@ -95,7 +119,7 @@
 
 - 7ff2788: Remove unnecessary left border in data table
 - Updated dependencies [8443590]
-  - @haokeyingxiao/meteor-tokens@0.1.0
+  - @shopware-ag/meteor-tokens@0.1.0
 
 ## 3.3.0
 
