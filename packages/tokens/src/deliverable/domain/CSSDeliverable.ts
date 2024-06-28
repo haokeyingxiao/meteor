@@ -32,7 +32,8 @@ export class CSSDeliverable implements Deliverable {
     const variables = Object.entries(this.dictionary.flat()).map(
       ([key, value]) => {
         const variableName = key.replace(/\./g, '-');
-        const itIsAnAliasedToken = /^\{.+\}$/gi.test(value);
+        const itIsAnAliasedToken =
+          typeof value === 'string' && /^\{.+\}$/gi.test(value);
 
         if (itIsAnAliasedToken) {
           const pathToAliasedTokenValue = value
@@ -46,14 +47,26 @@ export class CSSDeliverable implements Deliverable {
 
           if (typeof resolvedValue !== 'string') {
             throw new Error(
-              'Failed to create CSSDeliverable; Could not resolve value of aliased token',
+              `Failed to create CSSDeliverable; Could not resolve value of aliased token: ${pathToAliasedTokenValue}`,
             );
           }
 
           return `--${variableName}: ${resolvedValue};`;
         }
 
-        return `--${variableName}: ${value};`;
+        if (typeof value === 'string' && value.startsWith('#')) {
+          return `--${variableName}: ${value};`;
+        }
+
+        if (typeof value === 'number') {
+          if (!variableName.includes('weight')) {
+            return `--${variableName}: ${value / 16}rem;`;
+          }
+
+          return `--${variableName}: ${value};`;
+        }
+
+        return `--${variableName}: '${value}';`;
       },
     );
 

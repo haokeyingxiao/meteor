@@ -41,6 +41,22 @@ export class Dictionary {
     ).reduce<DictionaryTree>((accumulator, variable) => {
       const rawValue = variable.valuesByMode[modeId];
 
+      const isStringValue = variable.resolvedType === 'STRING';
+      if (isStringValue) {
+        set(accumulator, kebabCase(variable.name), {
+          $value: rawValue,
+          $type: variable.resolvedType.toLocaleLowerCase(),
+        });
+      }
+
+      const isFloatValue = variable.resolvedType === 'FLOAT';
+      if (isFloatValue) {
+        set(accumulator, kebabCase(variable.name), {
+          $value: rawValue,
+          $type: variable.resolvedType.toLocaleLowerCase(),
+        });
+      }
+
       const isColorValue =
         variable.resolvedType === 'COLOR' &&
         typeof rawValue === 'object' &&
@@ -105,7 +121,7 @@ export class Dictionary {
   public flat() {
     function getToken(
       input: unknown,
-      accumulator: Record<string, string>,
+      accumulator: Record<string, string | number>,
       path?: string,
     ) {
       if (isObject(input)) {
@@ -123,7 +139,7 @@ export class Dictionary {
           if (
             key === '$value' &&
             typeof path === 'string' &&
-            typeof value === 'string'
+            (typeof value === 'string' || typeof value === 'number')
           ) {
             accumulator[path] = value;
           }

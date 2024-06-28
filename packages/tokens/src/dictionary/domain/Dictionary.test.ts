@@ -429,6 +429,34 @@ test('returns a flat object with all design tokens stored in the Dictionary', ()
           hiddenFromPublishing: false,
           scopes: ['ALL_SCOPES'],
         },
+        'VariableID:41413:51953': {
+          id: 'VariableID:41413:51953',
+          name: 'Font / Weight / 200',
+          key: 'db9aa5d3b7c6f03b4cddb78e045b566fae112d17',
+          variableCollectionId: 'VariableCollectionId:21953:215879',
+          resolvedType: 'FLOAT',
+          valuesByMode: {
+            '11953:0': 200,
+          },
+          remote: false,
+          description: '',
+          hiddenFromPublishing: false,
+          scopes: ['ALL_SCOPES'],
+        },
+        'VariableID:41513:51953': {
+          id: 'VariableID:41513:51953',
+          name: 'Font / Family / Heading',
+          key: 'db9aa5d3b7c6f03b4cddb78e045b566fae112d17',
+          variableCollectionId: 'VariableCollectionId:21953:215879',
+          resolvedType: 'STRING',
+          valuesByMode: {
+            '11953:0': 'Inter',
+          },
+          remote: false,
+          description: '',
+          hiddenFromPublishing: false,
+          scopes: ['ALL_SCOPES'],
+        },
       },
     },
   };
@@ -444,6 +472,8 @@ test('returns a flat object with all design tokens stored in the Dictionary', ()
   expect(result).toStrictEqual({
     'gray.50': '#0000ff',
     'gray.900': '#ffffff',
+    'font.family.heading': 'Inter',
+    'font.weight.200': 200,
   });
 });
 
@@ -518,4 +548,118 @@ test('throws an error if the mode is not found in the FigmaApiResponse', () => {
   expect(execute).toThrowErrorMatchingInlineSnapshot(
     `[Error: Failed to create Dictionary; Could not find mode with the name "Light mode"]`,
   );
+});
+
+test('creates a dictionary with string tokens', () => {
+  // GIVEN
+  const response: FigmaApiResponse = {
+    status: 200,
+    error: false,
+    meta: {
+      variables: {
+        'VariableID:11953:115880': {
+          id: 'VariableID:11953:115880',
+          name: 'Font / Family / Headings',
+          key: 'db9aa5d3b7c6f03b4cddb78e045b566fae112d17',
+          variableCollectionId: 'VariableCollectionId:11953:115879',
+          resolvedType: 'STRING',
+          valuesByMode: {
+            '11953:0': 'Inter',
+          },
+          remote: false,
+          description: '',
+          hiddenFromPublishing: false,
+          scopes: ['ALL_SCOPES'],
+        },
+      },
+      variableCollections: {
+        'VariableCollectionId:11953:115879': {
+          id: 'VariableCollectionId:11953:115879',
+          name: '.Design Tokens',
+          key: '9130479ef323598b1ccfb32e7b16dc80fcb30f14',
+          modes: [{ modeId: '11953:0', name: 'Default' }],
+          defaultModeId: '11953:0',
+          remote: false,
+          hiddenFromPublishing: true,
+          variableIds: ['VariableID:11953:115880'],
+        },
+      },
+    },
+  };
+
+  const subject = Dictionary;
+
+  // WHEN
+  const result = subject.fromFigmaApiResponse(response, {
+    mode: 'Default',
+  }).value;
+
+  // THEN
+  expect(result).toStrictEqual({
+    font: {
+      family: {
+        headings: {
+          $type: 'string',
+          $value: 'Inter',
+        },
+      },
+    },
+  });
+});
+
+test('creates a dictionary with number tokens', () => {
+  // GIVEN
+  const response: FigmaApiResponse = {
+    status: 200,
+    error: false,
+    meta: {
+      variables: {
+        'VariableID:11953:115880': {
+          id: 'VariableID:11953:115880',
+          name: 'Font / Weight / 200',
+          key: 'db9aa5d3b7c6f03b4cddb78e045b566fae112d17',
+          variableCollectionId: 'VariableCollectionId:11953:115879',
+          resolvedType: 'FLOAT',
+          valuesByMode: {
+            '11953:0': 200,
+          },
+          remote: false,
+          description: '',
+          hiddenFromPublishing: false,
+          scopes: ['ALL_SCOPES'],
+        },
+      },
+      variableCollections: {
+        'VariableCollectionId:11953:115879': {
+          id: 'VariableCollectionId:11953:115879',
+          name: '.Design Tokens',
+          key: '9130479ef323598b1ccfb32e7b16dc80fcb30f14',
+          modes: [{ modeId: '11953:0', name: 'Default' }],
+          defaultModeId: '11953:0',
+          remote: false,
+          hiddenFromPublishing: true,
+          variableIds: ['VariableID:11953:115880'],
+        },
+      },
+    },
+  };
+
+  const subject = Dictionary;
+
+  // WHEN
+  const result = subject.fromFigmaApiResponse(response, {
+    mode: 'Default',
+  }).value;
+
+  // THEN
+  expect(result).toStrictEqual({
+    font: {
+      weight: {
+        200: {
+          $type: 'float',
+          $value: 200,
+        },
+      },
+    },
+  });
 });
