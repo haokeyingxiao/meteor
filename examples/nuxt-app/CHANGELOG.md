@@ -1,5 +1,13 @@
 # nuxt-app
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @haokeyingxiao/meteor-component-library@3.9.0
+
 ## 0.0.10
 
 ### Patch Changes

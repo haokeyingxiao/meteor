@@ -4,6 +4,19 @@
 
 ### Minor Changes
 
+- init
+
+### Patch Changes
+
+- init
+- Updated dependencies
+- Updated dependencies
+  - @haokeyingxiao/meteor-tokens@0.2.0
+
+## 3.9.0
+
+### Minor Changes
+
 - 8c74a37: Add mt-link component
 
 ### Patch Changes

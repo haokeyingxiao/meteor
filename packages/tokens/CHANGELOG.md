@@ -4,6 +4,16 @@
 
 ### Minor Changes
 
+- init
+
+### Patch Changes
+
+- init
+
+## 0.2.0
+
+### Minor Changes
+
 - 0a0ac80: Add color/icon/inverse token
 - 0a0ac80: Add color/elevation/surface/floating token
 - 0a0ac80: Add color/text/inverse token
