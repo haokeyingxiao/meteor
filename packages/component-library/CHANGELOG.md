@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.9.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @haokeyingxiao/meteor-icon-kit@5.4.1
+
 ## 3.10.0
 
 ### Minor Changes
