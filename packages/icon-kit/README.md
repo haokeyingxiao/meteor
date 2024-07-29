@@ -2,7 +2,7 @@
 
 # meteor-icon-kit
 
-> An icon library and toolkit that follows a minimal, yet highly expressive style perfectly aligned with Shopware's product language
+> An icon library and toolkit that follows a minimal, yet highly expressive style perfectly aligned with Haoke's product language
 
 ## Prerequisites
 
@@ -131,8 +131,6 @@ You can find this example as a CodeSandbox template [here](https://codesandbox.i
 * VS-Code
 * Love :blue_heart: :blue_heart: :blue_heart:
 
-## Figma library
-Meteor Icon Kit is available as a [Figma library](https://www.figma.com/community/file/1032564947404478461/Meteor-Icon-Kit-%E2%80%93-Shopware) through the Figma Community. To use the icons, log in to your Figma account and duplicate the file to your drafts.
 
 ## License
 
