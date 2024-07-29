@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @haokeyingxiao/meteor-icon-kit@5.4.1
+    - @haokeyingxiao/meteor-icon-kit@5.4.1
 
 ## 3.10.0
 
@@ -24,7 +24,7 @@
 - init
 - Updated dependencies
 - Updated dependencies
-  - @haokeyingxiao/meteor-tokens@0.2.0
+    - @haokeyingxiao/meteor-tokens@0.2.0
 
 ## 3.9.0
 
@@ -57,8 +57,8 @@
 - def10ee: Add tokens to tooltip component
 - 81f8d4c: Fix tag deletion is not working on the Safari browser
 - d60aad5: # Fix number field events
-  - Deprecated `change` event for `mt-number-field`
-  - Added `update:modelValue` event to `mt-number-field`
+    - Deprecated `change` event for `mt-number-field`
+    - Added `update:modelValue` event to `mt-number-field`
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
@@ -69,7 +69,7 @@
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
-  - @haokeyingxiao/meteor-tokens@0.2.0
+    - @haokeyingxiao/meteor-tokens@0.2.0
 
 ## 3.8.0
 
@@ -157,7 +157,7 @@
 
 - 7ff2788: Remove unnecessary left border in data table
 - Updated dependencies [8443590]
-  - @haokeyingxiao/meteor-tokens@0.1.0
+    - @haokeyingxiao/meteor-tokens@0.1.0
 
 ## 3.3.0
 
@@ -182,7 +182,7 @@
 ### Minor Changes
 
 - 6c6678d: - Renamed all "sw" prefixes to "mt"
-  - Keep old sw prefixes for backwards compatibility
+    - Keep old sw prefixes for backwards compatibility
 
 ## 3.0.0
 

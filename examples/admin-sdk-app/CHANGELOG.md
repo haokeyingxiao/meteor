@@ -12,4 +12,4 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @haokeyingxiao/meteor-admin-sdk@5.5.1
+    - @haokeyingxiao/meteor-admin-sdk@5.5.1
