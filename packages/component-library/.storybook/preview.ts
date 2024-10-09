@@ -12,8 +12,8 @@ import {
 } from "./ThemeProvider";
 
 // importing meteor tokens
-import "@shopware-ag/meteor-tokens/administration/light.css";
-import "@shopware-ag/meteor-tokens/administration/dark.css";
+import "@haokeyingxiao/meteor-tokens/administration/light.css";
+import "@haokeyingxiao/meteor-tokens/administration/dark.css";
 
 const i18n = createI18n({
   // something vue-i18n options here ...
