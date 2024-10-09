@@ -1,5 +1,5 @@
 {
-  "name": "@shopware-ag/meteor-component-library",
+  "name": "@haokeyingxiao/meteor-component-library",
   "version": "3.14.0",
   "repository": {
     "type": "git",
@@ -30,8 +30,8 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.4.3",
-    "@shopware-ag/meteor-icon-kit": "workspace:*",
-    "@shopware-ag/meteor-tokens": "workspace:*",
+    "@haokeyingxiao/meteor-icon-kit": "workspace:*",
+    "@haokeyingxiao/meteor-tokens": "workspace:*",
     "@storybook/addon-a11y": "^8.1.1",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/vue": "^8.1.0",

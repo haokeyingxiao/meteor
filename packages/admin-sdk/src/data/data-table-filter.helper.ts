@@ -1,5 +1,5 @@
 import Criteria from './Criteria';
-import { type Filter } from '@shopware-ag/meteor-component-library';
+import { type Filter } from '@haokeyingxiao/meteor-component-library';
 
 export function addDataTableFilters(
   criteria: Criteria,
