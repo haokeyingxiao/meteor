@@ -202,13 +202,13 @@ jobs:
           - trunk
     steps:
       - name: Setup shopware
-        uses: shopware/setup-shopware@main
+        uses: haokeyingxiao/setup-haoke@main
         with:
           path: shopware/
           install: "true"
           install-admin: "true"
           install-storefront: "true"
-          shopware-version: "${{ matrix.shopware-version }}"
+          haoke-version: "${{ matrix.shopware-version }}"
           env: dev
 
       - name: Checkout
