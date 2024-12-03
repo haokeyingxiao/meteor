@@ -250,7 +250,8 @@
 </template>
 
 <script setup lang="ts">
-import "@haokeyingxiao/meteor-component-library/dist/style.css";
+import "@haokeyingxiao/meteor-component-library/styles.css";
+import "@haokeyingxiao/meteor-component-library/font.css";
 import {
   SwCard,
   SwButton,
