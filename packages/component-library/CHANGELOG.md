@@ -1,5 +1,32 @@
 # Changelog
 
+## 3.15.0
+
+### Minor Changes
+
+- ba4fdbd: Adds a new slot for custom content within the button, enabling more flexible button customization.
+- 7593d00: remove hero variant from mt-card
+- b5ed517: Add mt-tooltip component
+- b7423bb: remove mt-url-field
+
+### Patch Changes
+
+- 0dcb079: Improve reading order for card titles when using a screen reader
+- 54b5fa4: Add translation for mt-banner
+- a4b2203: Add focus styles for checkbox
+- 51d6160: Migrate mt-select over to the custom built i18n composable
+- 85908bf: Migrate mt-data-table over to the custom built i18n composable
+- 824ee5a: Update focus style of inheritance toggle in card
+- 0280b80: Add missing translation for data table filters
+- 069a2ad: Do not announce mt-avatar for screen readers
+- daa8824: Add landmarks to card component for screen readers
+- ed03f65: Improve accessibility of mt-field-error
+- 893fba8: Increase contrast ratio in mt-avatar
+- 3b50452: Update focus style of switch
+- 4f9e73d: Migrate mt-data-table-settings over to the composition api
+- 893fba8: Increase color contrast in mt-avatar component
+- 235546f: Migrate mt-label to custom built i18n composable
+
 ## 3.14.0
 
 ### Minor Changes
