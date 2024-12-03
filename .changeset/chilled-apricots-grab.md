@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": patch
+"@haokeyingxiao/meteor-component-library": patch
 ---
 
 Add translation for mt-banner

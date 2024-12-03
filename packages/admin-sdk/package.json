@@ -1,5 +1,5 @@
 {
-  "name": "@shopware-ag/meteor-admin-sdk",
+  "name": "@haokeyingxiao/meteor-admin-sdk",
   "version": "5.6.0",
   "description": "The Meteor SDK for the Shopware Administration.",
   "keywords": [
@@ -88,7 +88,7 @@
   "dependencies": {
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
-    "@shopware-ag/meteor-component-library": "workspace:*"
+    "@haokeyingxiao/meteor-component-library": "workspace:*"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.0",

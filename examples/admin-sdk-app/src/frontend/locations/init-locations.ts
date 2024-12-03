@@ -1,7 +1,7 @@
 import { createApp, h, defineAsyncComponent } from 'vue';
 import { createI18n } from 'vue-i18n'
-import '@shopware-ag/meteor-component-library/dist/style.css';
-import { location } from '@shopware-ag/meteor-admin-sdk';
+import '@haokeyingxiao/meteor-component-library/dist/style.css';
+import { location } from '@haokeyingxiao/meteor-admin-sdk';
 
 // register all components for the location
 const locations = {

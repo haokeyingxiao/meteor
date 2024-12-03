@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
-import { data } from '@shopware-ag/meteor-admin-sdk';
-import { SwButton, SwTextField } from "@shopware-ag/meteor-component-library";
+import { data } from '@haokeyingxiao/meteor-admin-sdk';
+import { SwButton, SwTextField } from "@haokeyingxiao/meteor-component-library";
 
 
 // make background color white

@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@shopware-ag/meteor-admin-sdk": "workspace:*",
-    "@shopware-ag/meteor-component-library": "workspace:*",
+    "@haokeyingxiao/meteor-admin-sdk": "workspace:*",
+    "@haokeyingxiao/meteor-component-library": "workspace:*",
     "regenerator-runtime": "^0.14.1",
     "vue": "3.4.21",
     "vue-router": "4.4.5"

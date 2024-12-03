@@ -250,7 +250,7 @@
 </template>
 
 <script setup lang="ts">
-import "@shopware-ag/meteor-component-library/dist/style.css";
+import "@haokeyingxiao/meteor-component-library/dist/style.css";
 import {
   SwCard,
   SwButton,
@@ -262,7 +262,7 @@ import {
   MtModalTrigger,
   MtModalAction,
   MtText,
-} from "@shopware-ag/meteor-component-library";
+} from "@haokeyingxiao/meteor-component-library";
 import SwBlockStack from "./components/sw-block-stack.vue";
 
 const showBanner = ref();

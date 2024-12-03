@@ -1,5 +1,5 @@
 {
-  "plugins": ["@shopware-ag/stylelint-plugin-meteor"],
+  "plugins": ["@haokeyingxiao/stylelint-plugin-meteor"],
   "rules": {
     "meteor/prefer-sizing-token": [true, { "severity": "warning" }]
   },

@@ -17,9 +17,9 @@
     "lint:types": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@shopware-ag/entity-schema-types": "^5.8.6",
-    "@shopware-ag/meteor-admin-sdk": "workspace:*",
-    "@shopware-ag/meteor-component-library": "workspace:*",
+    "@haokeyingxiao/entity-schema-types": "^5.8.6",
+    "@haokeyingxiao/meteor-admin-sdk": "workspace:*",
+    "@haokeyingxiao/meteor-component-library": "workspace:*",
     "@vitejs/plugin-vue": "^4.6.2",
     "express": "^4.18.2",
     "shopware-app-server-sdk": "^0.0.15",

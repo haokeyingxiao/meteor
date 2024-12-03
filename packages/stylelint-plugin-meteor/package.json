@@ -1,5 +1,5 @@
 {
-  "name": "@shopware-ag/stylelint-plugin-meteor",
+  "name": "@haokeyingxiao/stylelint-plugin-meteor",
   "version": "0.0.0",
   "main": "./dist/commonjs/index.js",
   "scripts": {
